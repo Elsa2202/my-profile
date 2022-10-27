@@ -1,0 +1,98 @@
+h1{font-family: 'Gantari', sans-serif;}
+h1{color: darkseagreen;}
+h1{font-size: 42px}
+h2{font-family: 'Gantari', sans-serif;}
+h2{color: whitesmoke;}
+h2{font-size: 40px}
+p{font-family: 'Gantari', sans-serif;}
+p{color: black;}
+p{font: weigh;300}
+p{font-size: 22px}
+body{background-image: url(image/fond.jpg);
+background-position:right top;
+background-position:center center;}
+
+img.pdp {
+width: 250px;
+height: 250px;
+border-radius: 50%;}
+
+img.album {
+    width: 300px;
+    height: 300px;
+    background-size: auto 300px;
+    background-position: center top;
+}
+
+
+li{
+	list-style: none;
+	font-size: 32px;
+	display: inline;
+	margin: 12px;
+}
+
+ul {padding: 0px;
+font-size: 40px;}	
+
+div{width: 500px;
+background-color: none;
+border-radius: 6px;
+margin: 30px;
+padding: 16px;
+text-align: center;}
+
+.container {
+	width: 700px;
+	margin:  0 auto;
+	color: none;
+}
+
+.card-white{
+	background-color: white;
+	padding: 30px;
+	margin: 20px;
+	box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	text-align: center;
+}
+
+
+ <style>
+      a:link {
+        color: ##FFFFFF;
+      }
+      a:visited {
+        color: ##FFFFFF;
+      }
+      a:hover {
+        color: ##FFFFFF;
+      }
+      a:active {
+        color: ##FFFFFF;
+      }
+    </style>
+
+
+#card-name {
+	font-size: 80px;
+}
+
+#card-gratient{
+	color: none;
+	background-color: none;
+}
+
+/*Media queries*/
+
+@media (max-width: 900px){
+	.container {
+		width: 450px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 250px;
+	}
+}
